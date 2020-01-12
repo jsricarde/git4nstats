@@ -1,0 +1,21 @@
+{
+  "name": "git4nstats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "lab -v test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "18.x.x",
+    "mongodb": "3.x.x",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "code": "5.x.x",
+    "lab": "18.x.x"
+  }
+}
