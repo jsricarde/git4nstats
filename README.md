@@ -11,6 +11,17 @@ This project needs Node (version >= 8) installed on your machine.
 
 Thanks and happy coding!
 
+## Run
+To run the server use the follow command
+```sh
+$ node server.js
+```
+You can use curl or postman to access of the POST(application/json) endpoint [http://localhost:3000/users] and send an object with a users property and set an array with the github users to request:
+
+```sh
+$ curl -d '{"users": [ "jsricarde" ] }' -H "Content-Type: application/json" -X POST http://localhost:3000/users
+```
+
 ## Framework and APIs reference
 
 - Hapi:
@@ -24,4 +35,4 @@ Thanks and happy coding!
     http://mongodb.github.io/node-mongodb-native/3.1/quick-start/quick-start/
     
     
-
+[http://localhost:3000/users]: <http://localhost:3000/users>
